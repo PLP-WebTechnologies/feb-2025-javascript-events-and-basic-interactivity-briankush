@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JS Event Handling Playground 🎮</h1>
+
+  <!-- 1. Event Handling -->
+  <button id="clickBtn">Click Me!</button>
+  <div id="hoverBox">Hover over me!</div>
+  <input type="text" id="keyInput" placeholder="Type something...">
+  <button id="secretBtn">Double/Long Press Me!</button>
+
+  <!-- 2. Interactive Elements -->
+  <button id="changeBtn">Change Color/Text</button>
+
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=200&q=80" id="galleryImg" alt="Slideshow">
+    <button id="nextImg">Next Image</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab" data-target="tab1">Tab 1</button>
+    <button class="tab" data-target="tab2">Tab 2</button>
+    <div id="tab1" class="tab-content">Content for Tab 1</div>
+    <div id="tab2" class="tab-content" style="display:none">Content for Tab 2</div>
+  </div>
+
+  <!-- 3. Form Validation -->
+  <form id="signupForm">
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <span id="feedback"></span>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

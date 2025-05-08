@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #f0f8ff;
+  color: #333;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#hoverBox {
+  padding: 1rem;
+  background-color: #ffebcd;
+  margin: 1rem 0;
+  border: 1px dashed #ccc;
+  transition: transform 0.3s ease;
+}
+
+.gallery img {
+  display: block;
+  max-width: 200px;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.tabs .tab-content {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #e6f7ff;
+  border: 1px solid #b3d7ff;
+  border-radius: 5px;
+}
+
+.tab {
+  background-color: #ccc;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+}
+
+#signupForm input {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#feedback {
+  color: red;
+  font-size: 0.9rem;
+  height: 1rem;
+  display: block;
+  margin-bottom: 1rem;
+}
