@@ -1,8 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   padding: 2rem;
-  background: #f0f8ff;
+  background: #fef2f2;
   color: #333;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    text-emphasis: bold;
 }
 
 button {
@@ -17,12 +23,13 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #740ad1;
 }
 
 #hoverBox {
   padding: 1rem;
-  background-color: #ffebcd;
+  background-color: #94ed04;
+  text-align: center;
   margin: 1rem 0;
   border: 1px dashed #ccc;
   transition: transform 0.3s ease;
@@ -30,7 +37,7 @@ button:hover {
 
 .gallery img {
   display: block;
-  max-width: 200px;
+  max-width: 500px;
   margin: 1rem 0;
   border-radius: 8px;
 }
